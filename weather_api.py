@@ -8,7 +8,7 @@ def from_kelvin_to_cel(temp):
 
 
 city_name = input('Enter valid name of city: ')
-API_key = 'c9ac4c902b090e50db60e01f4174dff6'  # Site for API: Open Weather Map
+API_key = 'your API key'  # Site for API: Open Weather Map
 
 url = f'https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={API_key}&units-metric'
 
